@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment files (never commit secrets)
+.env
+*.env
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# pytest & coverage
+.pytest_cache/
+*.pytest_cache
+.coverage
+.coverage.*
+htmlcov/
+
+# IDE
+.idea/
+.vscode/
+*.code-workspace
+
+# Temp / OS / Office lock files
+.DS_Store
+Thumbs.db
+~$*
+*.tmp
+
+# Lock files (not required for submission)
+*.lock
